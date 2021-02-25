@@ -1,2 +1,5 @@
-# noEstructurado
-Análisis de datos no estructurados - ICAI
+# Análisis de datos No Estructurados
+Master Big Data- ICAI
+
+Pablo Mena
+Beltrán Rodríguez-Mon
