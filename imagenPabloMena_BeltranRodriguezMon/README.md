@@ -17,20 +17,20 @@
 
 Para construir el modelo YOLO, los pasos seguidos han sido los siguientes:
 
- 1. [Anotación de imágenes](/1_Image_Annotation/)
+ 1. [Anotación de imágenes](1_Image_Annotation/)
 	 - Tag de las imágenes según (nombre-label-coordenadas)
- 2. [Entrenamiento](/2_Training/)
+ 2. [Entrenamiento](2_Training/)
  	- Descargar los pesos pre-entrenados
  	- Entrenar el modelo YOLO custom para la detección de tablas
- 3. [Inferencia/test](/3_Inference/)
+ 3. [Inferencia/test](3_Inference/)
  	- Detectar tablas en nuevas imágenes
 
 ## Repositorio
-+ [`1_Image_Annotation`](/1_Image_Annotation/): Anotación de imágenes
-+ [`2_Training`](/2_Training/): Scripts para el entrenamiento del modelo
-+ [`3_Inference`](/3_Inference/): Scripts para el test
-+ [`Data`](/Data/): Input Data, Output Data y Pesos del modelo
-+ [`Utils`](/Utils/): Scripts de utilidad
++ [`1_Image_Annotation`](1_Image_Annotation/): Anotación de imágenes
++ [`2_Training`](2_Training/): Scripts para el entrenamiento del modelo
++ [`3_Inference`](3_Inference/): Scripts para el test
++ [`Data`](Data/): Input Data, Output Data y Pesos del modelo
++ [`Utils`](Utils/): Scripts de utilidad
 
 ## Getting Started
 
@@ -46,7 +46,7 @@ Entorno Virtual **(Windows)**:
 py -m venv env
 .\env\Scripts\activate
 ```
-![PowerShell](/Utils/Screenshots/PowerShell.png)
+![PowerShell](Utils/Screenshots/PowerShell.png)
 
 #### Instalación de los paquetes necesarios [Windows, Mac or Linux]
 
@@ -164,13 +164,13 @@ Epoch 51/51
 
 ## Resultados
 
-Las salidas del modelo están almacenadas en  [`Data/Source_Images/Test_Image_Detection_Results`](/Data/Source_Images/Test_Image_Detection_Results). 
+Las salidas del modelo están almacenadas en  [`Data/Source_Images/Test_Image_Detection_Results`](Data/Source_Images/Test_Image_Detection_Results). 
 
-![Test](/Data/Source_Images/Test_Image_Detection_Results/1_catface.png)
+![Test](Data/Source_Images/Test_Image_Detection_Results/1_catface.png)
 
 #### Testing del Detector
-Para detectar nuevas tablas es necesario ejecutar el Script de [`3_Inference`](/3_Inference/):
+Para detectar nuevas tablas es necesario ejecutar el Script de [`3_Inference`](3_Inference/):
 ```
 python Detector.py
 ```
-La salida se almacena en [`Data/Source_Images/Test_Image_Detection_Results`](/Data/Source_Images/Test_Image_Detection_Results)
+La salida se almacena en [`Data/Source_Images/Test_Image_Detection_Results`](Data/Source_Images/Test_Image_Detection_Results)
