@@ -9,7 +9,7 @@
 
  Para realizar el entrenamiento primero de todo hemos inicializado el modelo de YOLO utilizando unos pesos predefinidos basados en la red **Darknet** (red CNN). 
 
- *Dentro del repositorio de Githib se ha omitido la carpeta con los datos de Training y con el modelo, para poder subir el resto.
+ *Dentro del repositorio de Githib se ha omitido la carpeta con los datos de Training y con el modelo, para poder subir el resto (Dado que por su tamaó el repo no deja subir los archivos).
 
  ** El repositorio al completo con los datos están compartidos en esta [Carpeta de Drive](https://drive.google.com/drive/folders/1bEwwj1ibY11t8odqHARaTKmL_bzABeoI?usp=sharing) estando también parcialmente en [Github](https://github.com/beltranmon/noEstructurado)
 
@@ -29,7 +29,7 @@ Para construir el modelo YOLO, los pasos seguidos han sido los siguientes:
 + [`1_Image_Annotation`](1_Image_Annotation/): Anotación de imágenes
 + [`2_Training`](2_Training/): Scripts para el entrenamiento del modelo
 + [`3_Inference`](3_Inference/): Scripts para el test
-+ [`Data`](Data/): Input Data, Output Data y Pesos del modelo
++ [`Data`](Data/): Input Data, Output Data (Source_Images) y Pesos del modelo (Model_Weights)
 + [`Utils`](Utils/): Scripts de utilidad
 
 ## Getting Started
