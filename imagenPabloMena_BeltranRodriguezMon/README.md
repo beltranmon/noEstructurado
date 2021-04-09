@@ -9,9 +9,9 @@
 
  Para realizar el entrenamiento primero de todo hemos inicializado el modelo de YOLO utilizando unos pesos predefinidos basados en la red **Darknet** (red CNN). 
 
- *Dentro del repositorio de Githib se ha omitido la carpeta con los datos de Training, para poder subir el resto.
+ *Dentro del repositorio de Githib se ha omitido la carpeta con los datos de Training y con el modelo, para poder subir el resto.
 
- ** El repositorio al completo con los datos están compartidos en esta [Carpeta de Drive](https://drive.google.com/drive/folders/1MWFSfMg-fgFIdaXxEn07eHtFvP3_sCaf?usp=sharing)
+ ** El repositorio al completo con los datos están compartidos en esta [Carpeta de Drive](https://drive.google.com/drive/folders/1bEwwj1ibY11t8odqHARaTKmL_bzABeoI?usp=sharing) estando también parcialmente en [Github](https://github.com/beltranmon/noEstructurado)
 
 ## Pipeline 
 
@@ -164,7 +164,7 @@ Epoch 51/51
 
 ## Resultados
 
-Las salidas del modelo están almacenadas en  [`Data/Source_Images/Test_Image_Detection_Results`](Data/Source_Images/Test_Image_Detection_Results). 
+Las salidas del modelo están almacenadas en  [`Data/Source_Images/Test_Image_Detection_Results`](Data/Source_Images/Test_Image_Detection_Results). Dentro de este directorio hay varias imágenes para mostrar la efectividad del modelo.
 
 ![Test](Data/Source_Images/Test_Image_Detection_Results/1_catface.png)
 
@@ -174,3 +174,7 @@ Para detectar nuevas tablas es necesario ejecutar el Script de [`3_Inference`](3
 python Detector.py
 ```
 La salida se almacena en [`Data/Source_Images/Test_Image_Detection_Results`](Data/Source_Images/Test_Image_Detection_Results)
+
+## Conclusión
+
+El modelo funciona bastante bien, especialmente considerando que el entrenamiento del modelo original (Darknet) no se ha realizado con un dataset mínimamente semejante al objetivo de nuestro enfoque (identificar tablas en documentos).
