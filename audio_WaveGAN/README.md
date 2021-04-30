@@ -1,10 +1,25 @@
 # WaveGAN
 
-Práctica de audio de Anñalisis de datos no estructurados
+Práctica de audio de Análisis de datos no estructurados
 
 Pablo Mena
 
 Beltrán Rodríguez-Mon
+
+## Crear un entorno virtual (por si no se quiere ejecutar en Google Collab)
+
+Entorno Virtual **(Linux/Mac)**:
+```bash
+python3 -m venv env
+source env/bin/activate
+```
+
+Entorno Virtual **(Windows)**:
+
+```powershell
+py -m venv env
+.\env\Scripts\activate
+```
 
 
 ## Datasets
