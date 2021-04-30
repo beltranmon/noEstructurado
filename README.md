@@ -10,3 +10,5 @@ Análisis de datos no estructurados - ICAI
  1. Logs - WhatsApp Analyzer
 
  2. Imágenes - Detector con YOLOv3
+
+ 3. Audio - Sintetizador de audio con WaveGAN

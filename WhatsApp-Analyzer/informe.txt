@@ -1,9 +1,0 @@
-Informe de la Práctica de WhatsApp
-Pablo Mena y Beltrán Rodríguez-Mon
-
-Para la realización de la práctica se partió del Notebook original y se ha añadido:
-* Un cambio en la lógica del tratamiento de las frases. Se ha utilizado una librería de NLP ('Spacy') para hacer un análisis sintáctico de todas las frases antes de trabajar con sus palabras, para filtrar aquellas que sintácticamente no poseen valor (determinantes, pronombres...) y para llevar todas las palabras a su raíz (lemmatizer)
-* Una funcionalidad nueva. Se añade la funcionalidad de trabajar con palabras en español filtrando las 'Stopwords' (obtenidas de la librería 'NLTK') y términos que usa WhatsApp en algunos mensajes (los eliminados, archivos multimedia...)
-* 2 nuevos resultados:
-    - Insultos más utilizados en las conversaciones. Se hace un conteo de insultos según una lista preestablecida y se muestra con un WordCloud
-    - Análisis de sentimiento. Se analiza cada frase y se pondera por cada usuario cual es su 'Sentimiento medio' durante todo su tiempo en el grupo. Se muestra en un Histograma ordenado de mayor a menor, en una escala de [0,2], donde '1' es el valor neutro (si se utiliza una escala con valores negativos, el histograma sale mal.)

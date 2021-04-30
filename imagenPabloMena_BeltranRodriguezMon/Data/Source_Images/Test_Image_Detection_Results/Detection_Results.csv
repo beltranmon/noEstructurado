@@ -1,7 +1,0 @@
-image,image_path,xmin,ymin,xmax,ymax,label,confidence,x_size,y_size
-0.png,D:\IMeureka\TrainYourOwnYOLO\Data\Source_Images\Test_Images\0.png,224,670,1420,1020,1,0.31229865550994873,1655,2341
-0.png,D:\IMeureka\TrainYourOwnYOLO\Data\Source_Images\Test_Images\0.png,189,1194,1489,1293,1,0.4371258020401001,1655,2341
-0.png,D:\IMeureka\TrainYourOwnYOLO\Data\Source_Images\Test_Images\0.png,142,614,1510,1313,1,0.9795052409172058,1655,2341
-1.png,D:\IMeureka\TrainYourOwnYOLO\Data\Source_Images\Test_Images\1.png,121,343,1518,548,1,0.9334849715232849,1655,2341
-1.png,D:\IMeureka\TrainYourOwnYOLO\Data\Source_Images\Test_Images\1.png,123,1524,1513,1967,1,0.9696887731552124,1655,2341
-2.png,D:\IMeureka\TrainYourOwnYOLO\Data\Source_Images\Test_Images\2.png,149,384,1489,532,1,0.9072794318199158,1655,2341
