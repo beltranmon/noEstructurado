@@ -1,6 +1,6 @@
 # WaveGAN
 
-Práctica de audio de Anñalisis de datos no estructurados
+Práctica de audio de Análisis de datos no estructurados
 
 Pablo Mena
 
