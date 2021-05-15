@@ -12,3 +12,5 @@ Análisis de datos no estructurados - ICAI
  2. Imágenes - Detector con YOLOv3
 
  3. Audio - Sintetizador de audio con WaveGAN
+
+ 4. Traductor ES-EN con redes neuronales RNN, GRU y LSTM
