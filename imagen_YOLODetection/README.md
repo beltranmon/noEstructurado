@@ -11,7 +11,7 @@
 
  *Dentro del repositorio de Githib se ha omitido la carpeta con los datos de Training y con el modelo, para poder subir el resto (Dado que por su tamaó el repo no deja subir los archivos).
 
- ** El repositorio al completo con los datos están compartidos en esta [Carpeta de Drive](https://drive.google.com/drive/folders/1bEwwj1ibY11t8odqHARaTKmL_bzABeoI?usp=sharing) estando también parcialmente en [Github](https://github.com/beltranmon/noEstructurado)
+ ** El repositorio al completo con los datos están compartidos en esta [Carpeta de Drive](https://drive.google.com/drive/folders/1PJSESGodj20i6591vuoG5htliU21_XuT?usp=sharing) estando también parcialmente en [Github](https://github.com/beltranmon/noEstructurado)
 
 ## Pipeline 
 
